@@ -54,6 +54,8 @@ export async function getBloodInventory(): Promise<BloodInventory[]> {
 }
 
 export async function updateBloodInventory(bloodType: string, units: number) {
+  if (!supabase) throw new Error('Supabase not configured');
+  
   let status: BloodInventory['status'] = 'high';
   if (units < 10) status = 'critical';
   else if (units < 20) status = 'low';
