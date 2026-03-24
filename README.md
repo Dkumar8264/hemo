@@ -2,7 +2,7 @@
 
 ## Description
 
-A comprehensive solution for managing hemoglobin-related data effectively with robust features and user-friendly interface for data input, visualization, and analysis. Live at: https://hemo-eta.vercel.app"
+A comprehensive solution for managing hemoglobin-related data effectively with robust features and user-friendly interface for data input, visualization, and analysis. 
 
 ## Links
 
